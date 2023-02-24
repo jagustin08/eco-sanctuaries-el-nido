@@ -15,29 +15,9 @@
   <body>
     <h1>Hello World</h1>
 
-    <button
-      type="button"
-      class="btn btn-lg btn-danger"
-      data-bs-toggle="popover"
-      data-bs-title="Popover title"
-      data-bs-content="And here's some amazing content. It's very engaging. Right?">
-      Click to toggle popover
-    </button>
-
-    <a name="" id="" class="btn btn-primary" href="#" role="button">Button</a>
-
     <script src="./src/libraries/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./src/libraries/gsap/gsap.min.js"></script>
     <script src="./src/libraries/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/main.js"></script>
-
-    <script>
-      const popoverTriggerList = document.querySelectorAll(
-        '[data-bs-toggle="popover"]'
-      );
-      const popoverList = [...popoverTriggerList].map(
-        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
-      );
-    </script>
   </body>
 </html>
