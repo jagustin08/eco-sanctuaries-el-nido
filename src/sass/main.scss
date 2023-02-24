@@ -1,1 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// https://sass-guidelin.es/#architecture
+
+@use "abstracts" as *;
+@use "base" as *;
+@use "includes" as *;
+@use "pages" as *;
