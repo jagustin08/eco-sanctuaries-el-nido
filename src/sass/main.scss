@@ -11,10 +11,52 @@
 
 // Include any default map overrides here
 
+$custom-theme-colors: (
+  "white": rgb(255, 255, 255),
+  "light-black": rgb(65, 66, 61),
+  "beige": rgb(222, 210, 176),
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+$custom-spacers: (
+  6: $spacer * 3.5,
+  7: $spacer * 4,
+  8: $spacer * 4.5,
+  9: $spacer * 5,
+  10: $spacer * 6,
+  11: $spacer * 8,
+  12: $spacer * 10,
+  13: $spacer * 12,
+  14: $spacer * 16,
+);
+
+$spacers: map-merge($spacers, $custom-spacers);
+
 // Include remainder of required parts
 @import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+$utilities: (
+  "font-family": (
+    property: font-family,
+    class: font,
+    values: (
+      monospace: var(--#{$prefix}font-monospace),
+      cormorant: var(--#{$prefix}font-cormorant),
+      montserrat: var(--#{$prefix}font-montserrat),
+    ),
+  ),
+);
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 // Add additional custom code here
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --bs-font-cormorant: "Cormorant", serif;
+  --bs-font-montserrat: "Montserrat", sans-serif;
+  --bs-body-font-family: var(--#{$prefix}font-montserrat);
+}
