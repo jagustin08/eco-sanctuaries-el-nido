@@ -16,22 +16,34 @@ $custom-theme-colors: (
   "light-black": rgb(65, 66, 61),
   "beige": rgb(222, 210, 176),
 );
-
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
 $custom-spacers: (
   6: $spacer * 3.5,
+  //56px
   7: $spacer * 4,
+  // 64px
   8: $spacer * 4.5,
+  // 72px
   9: $spacer * 5,
+  // 80px
   10: $spacer * 6,
+  // 96px
   11: $spacer * 8,
+  // 128px
   12: $spacer * 10,
+  // 160px
   13: $spacer * 12,
+  // 192px
   14: $spacer * 16,
+  // 256px
 );
-
 $spacers: map-merge($spacers, $custom-spacers);
+
+$custom-font-sizes: (
+  7: 0.875rem,
+);
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
 // Include remainder of required parts
 @import "../../node_modules/bootstrap/scss/maps";
@@ -48,11 +60,48 @@ $utilities: (
       montserrat: var(--#{$prefix}font-montserrat),
     ),
   ),
+
+  "text-align": (
+    responsive: true,
+    property: text-align,
+    class: text,
+    values: (
+      start: left,
+      end: right,
+      center: center,
+      unset: unset,
+    ),
+  ),
+
+  "color": (
+    property: color,
+    class: text,
+    local-vars: (
+      "text-opacity": 1,
+    ),
+    state: hover,
+    values:
+      map-merge(
+        $utilities-text-colors,
+        (
+          "muted": var(--#{$prefix}secondary-color),
+          // deprecated
+          "black-50": rgba($black, 0.5),
+          // deprecated
+          "white-50": rgba($white, 0.5),
+          // deprecated
+          "body-secondary": var(--#{$prefix}secondary-color),
+          "body-tertiary": var(--#{$prefix}tertiary-color),
+          "body-emphasis": var(--#{$prefix}emphasis-color),
+          "reset": inherit,
+        )
+      ),
+  ),
 );
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-// Add additional custom code here
 
+// Add additional custom code here
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
@@ -60,3 +109,8 @@ $utilities: (
   --bs-font-montserrat: "Montserrat", sans-serif;
   --bs-body-font-family: var(--#{$prefix}font-montserrat);
 }
+
+@import "includes/header";
+@import "includes/footer";
+
+@import "pages/home";

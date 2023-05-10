@@ -25,8 +25,8 @@
   <?php include "includes/header.php"; ?>
 
   <main>
-    <h1>Hello World</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae nam maxime animi aperiam impedit quas veniam ipsum dolore? Nam, ex. Earum accusantium neque enim saepe quisquam tempora quidem a eveniet?</p>
+    <section style="background: url('src/images/bg_home.jpg') no-repeat center top;" class="min-vh-100">
+    </section>
   </main>
 
   <?php include "includes/footer.php"; ?>
