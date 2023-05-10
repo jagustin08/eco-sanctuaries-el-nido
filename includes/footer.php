@@ -9,7 +9,7 @@
             </div>
 
             <div class="col-lg-6 mb-4 mb-lg-0">
-                <ul class="nav flex-column flex-lg-row justify-content-lg-end gap-2 gap-lg-3 mb-4 mb-lg-3">
+                <ul class="nav flex-column flex-lg-row justify-content-lg-end gap-2 gap-lg-3 mb-4 mb-lg-2">
                     <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0">Home</a> </li>
                     <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0">About</a> </li>
                     <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0">Nature Lodges</a> </li>
@@ -17,9 +17,9 @@
                     <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0">Book now</a> </li>
                 </ul>
 
-                <ul class="nav justify-content-center justify-content-lg-end gap-3 gap-lg-4">
-                    <li class="nav-item"> <a href="#" class="nav-link p-0"> <img src="src/images/icon_facebook.svg" alt=""> </a> </li>
-                    <li class="nav-item"> <a href="#" class="nav-link p-0"> <img src="src/images/icon_instagram.svg" alt=""> </a> </li>
+                <ul class="nav justify-content-center justify-content-lg-end gap-3 gap-lg-4 align-items-center">
+                    <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0 fs-4"> <i class="fa-brands fa-facebook"></i></a> </li>
+                    <li class="nav-item"> <a href="#" class="nav-link text-light text-beige-hover p-0 fs-2"> <i class="fa-brands fa-instagram"></i> </a> </li>
                 </ul>
             </div>
         </div>

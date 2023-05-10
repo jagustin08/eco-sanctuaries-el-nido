@@ -101,9 +101,20 @@ $utilities: (
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Add additional custom code here
+// Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
+// Font awesome
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/functions";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/variables";
+
+$fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Add additional custom code here
 :root {
   --bs-font-cormorant: "Cormorant", serif;
   --bs-font-montserrat: "Montserrat", sans-serif;
