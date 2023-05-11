@@ -1,6 +1,6 @@
 @import "../abstracts/variables";
 
-/* .swiper {
+.swiper {
   &:hover {
     .swiper-button-prev {
       left: 50px;
@@ -18,18 +18,6 @@
 
 .swiper-button-next {
   right: -50px;
-} */
-
-.swiper-button-prev {
-  @include media-breakpoint-up("lg") {
-    left: 50px;
-  }
-}
-
-.swiper-button-next {
-  @include media-breakpoint-up("lg") {
-    right: 50px;
-  }
 }
 
 .swiper-button-next,
