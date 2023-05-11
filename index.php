@@ -41,7 +41,7 @@
       <div class="container">
         <h2 class="display-6 font-cormorant fw-bold mb-3">We are more than just an accommodation</h2>
         <div class="col-lg-6 mx-auto">
-          <p class="mb-7">Our ethos consists of three pillars: NATURE, WELLNESS, COMMUNITY, seeking to contribute to the welfare of our guests, our surrounding community, and the environment around us.</p>
+          <p class="mb-5">Our ethos consists of three pillars: NATURE, WELLNESS, COMMUNITY, seeking to contribute to the welfare of our guests, our surrounding community, and the environment around us.</p>
           <a href="#" class="btn btn-dark text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Learn more</a>
         </div>
       </div>
