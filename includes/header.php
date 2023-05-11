@@ -10,31 +10,29 @@
                 <span class="navbar-icon d-block bg-white opacity-50" style="height: 2px; width: 25px"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-                <div class="offcanvas-header position-relative;">
+                <div class="offcanvas-header position-relative">
                     <a href="https://www.ecosanctuarieselnido.com/" class="mx-auto" style="width: 80px;"><img src="src/images/logo.png" alt="Eco Sanctuaries logo" class="img-fluid"></a>
                     <button type="button" class="btn-close btn-close-white m-0 shadow-none position-absolute" data-bs-dismiss="offcanvas" aria-label="Close" style="right: 16px"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-lg-4">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 gap-lg-4">
                         <li class="nav-item <?php echo ($currentPage == "home" ? "active" : "") ?>">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="https://www.ecosanctuarieselnido.com/">Home</a>
+                            <a class="nav-link text-beige-hover" href="https://www.ecosanctuarieselnido.com/">Home</a>
                         </li>
                         <li class="nav-item <?php echo ($currentPage == "about" ? "active" : "") ?>">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="about.php">About</a>
+                            <a class="nav-link text-beige-hover" href="about.php">About</a>
                         </li>
                         <li class="nav-item <?php echo ($currentPage == "nature_lodges" ? "active" : "") ?>">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="nature_lodges.php">Nature Lodges</a>
+                            <a class="nav-link text-beige-hover" href="nature_lodges.php">Nature Lodges</a>
                         </li>
                         <li class="nav-item <?php echo ($currentPage == "experiences" ? "active" : "") ?>">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="experiences.php">Experiences</a>
+                            <a class="nav-link text-beige-hover" href="experiences.php">Experiences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="#contact-us">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link p-0 py-2 text-beige-hover" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank">Book now</a>
+                            <a class="nav-link text-beige-hover" href="#contact-us">Contact us</a>
                         </li>
                     </ul>
+                    <a class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant border-0 px-4" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" style="height: 35px;" target="_blank">Book now</a>
                 </div>
             </div>
         </div>
