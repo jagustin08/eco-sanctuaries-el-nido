@@ -32,7 +32,7 @@
                             <a class="nav-link text-beige-hover" href="#contact-us">Contact us</a>
                         </li>
                     </ul>
-                    <a class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant border-0 px-4" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" style="height: 35px;" target="_blank">Book now</a>
+                    <a class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant border-0 px-4 mt-3 mt-lg-0 w-100 w-lg-auto" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" style="height: 35px;" target="_blank">Book now</a>
                 </div>
             </div>
         </div>
