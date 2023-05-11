@@ -17,9 +17,9 @@
                     <li class="nav-item"> <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" class="nav-link text-light text-beige-hover p-0" target="_blank">Book now</a> </li>
                 </ul>
 
-                <ul class="nav justify-content-center justify-content-lg-end gap-3 gap-lg-4 align-items-center">
+                <ul class="nav justify-content-center justify-content-lg-end gap-3 align-items-center">
                     <li class="nav-item"> <a href="https://www.facebook.com/ecosanctuarieselnido" target="_blank" class="nav-link text-light text-beige-hover p-0 fs-4"> <i class="fa-brands fa-facebook"></i></a> </li>
-                    <li class="nav-item"> <a href="https://www.instagram.com/ecosanctuaries.elnido/" target="_blank" class="nav-link text-light text-beige-hover p-0 fs-2"> <i class="fa-brands fa-instagram"></i> </a> </li>
+                    <li class="nav-item"> <a href="https://www.instagram.com/ecosanctuaries.elnido/" target="_blank" class="nav-link text-light text-beige-hover p-0 fs-3"> <i class="fa-brands fa-instagram"></i> </a> </li>
                 </ul>
             </div>
         </div>

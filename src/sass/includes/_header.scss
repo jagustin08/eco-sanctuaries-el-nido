@@ -1,1 +1,35 @@
 @import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
+@import "../abstracts/variables";
+
+#header {
+  &.shrink {
+    .navbar-brand {
+      width: 80px !important;
+    }
+  }
+
+  .navbar-brand {
+    transition: all 0.3s;
+    width: 80px;
+
+    @include media-breakpoint-up("lg") {
+      width: 120px;
+    }
+  }
+
+  .nav-item {
+    &.active {
+      .nav-link {
+        color: var(--beige);
+
+        @include media-breakpoint-up("lg") {
+          border-color: var(--beige);
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    border-bottom: 1px solid transparent;
+  }
+}

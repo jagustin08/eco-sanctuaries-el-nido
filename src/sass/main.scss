@@ -12,9 +12,9 @@
 // Include any default map overrides here
 
 $custom-theme-colors: (
-  "white": rgb(255, 255, 255),
-  "light-black": rgb(65, 66, 61),
-  "beige": rgb(222, 210, 176),
+  "white": #ffffff,
+  "light-black": #41423d,
+  "beige": #ded2b0,
 );
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 

@@ -22,7 +22,8 @@
 </head>
 
 <body>
-  <?php include "includes/header.php"; ?>
+  <?php $currentPage = "experiences";
+  include "includes/header.php"; ?>
 
   <main>
     <section style="background: url('src/images/bg_home.jpg') no-repeat center top;" class="min-vh-100">
