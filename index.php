@@ -47,7 +47,7 @@
       </div>
     </section>
 
-    <section class="bg-beige text-white">
+    <section class="bg-beige">
       <div class="container-lg py-7">
         <h2 class="display-6 font-cormorant fw-bold text-center mb-7">The Eco Sanctuaries Experience</h2>
 

@@ -17,7 +17,8 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 gap-lg-4">
                         <li class="nav-item <?php echo ($currentPage == "home" ? "active" : "") ?>">
-                            <a class="nav-link text-beige-hover" href="https://www.ecosanctuarieselnido.com/">Home</a>
+                            <!-- <a class="nav-link text-beige-hover" href="https://www.ecosanctuarieselnido.com/">Home</a> -->
+                            <a class="nav-link text-beige-hover" href="index.php">Home</a>
                         </li>
                         <li class="nav-item <?php echo ($currentPage == "about" ? "active" : "") ?>">
                             <a class="nav-link text-beige-hover" href="about.php">About</a>
