@@ -125,40 +125,31 @@
       <div class="container py-7">
         <div class="row">
           <div class="col-lg-6">
-            <div class="swiper" id="seaviewCabinSwiper">
+            <div class="swiper" id="regularCabinSwiper">
               <div class="swiper-wrapper">
-                <div class="swiper-slide img-1" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/1.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/1.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-1" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/1.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/1.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-2" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/2.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/2.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-2" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/2.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/2.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-3" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/3.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/3.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-3" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/3.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/3.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-4" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/4.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/4.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-4" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/4.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/4.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-5" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/5.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/5.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-5" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/5.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/5.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-6" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/6.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/6.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-6" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/6.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/6.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-7" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/7.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/7.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-7" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/7.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/7.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
-                <div class="swiper-slide img-8" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/8.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/8.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
-                </div>
-                <div class="swiper-slide img-9" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/9.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/9.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
-                </div>
-                <div class="swiper-slide img-10" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/10.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/10.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
-                </div>
-                <div class="swiper-slide img-11" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/11.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/11.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                <div class="swiper-slide img-8" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/8.jpg">
+                  <img src="src/images/nature_lodges/regular_cabin/8.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
                 </div>
               </div>
 
@@ -167,24 +158,24 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-0 mt-4 mt-lg-0">
-            <h2 class="display-6 font-cormorant fw-bold mb-4">Beachfront Lodge with Sea View Balcony</h2>
+            <h2 class="display-6 font-cormorant fw-bold mb-4">Beachfront Cabin</h2>
             <div class="row g-0">
               <ul class="col-md-6 mb-0" style="padding-left: 2rem">
                 <li>Beachfront</li>
                 <li>Daily Cleaning / Housekeeping</li>
-                <li>Queen Bed (up to 2 Beds)</li>
-                <li>Sea View Balcony</li>
+                <li>Queen Bed</li>
                 <li>Outdoor Chairs</li>
                 <li>Mini Garden</li>
                 <li>Private Bathroom / Bidet</li>
                 <li>Organic Body Wash / Shampoo</li>
                 <li>Handsoap</li>
+                <li>Beach and Bath Towel</li>
               </ul>
               <ul class="col-md-6 mb-0" style="padding-left: 2rem">
                 <li>Cabinet with hangers</li>
-                <li>Beach and Bath Towel</li>
                 <li>Tissue</li>
                 <li>In room Coffee and Tea</li>
+                <li>Hot water thermos refilled daily</li>
                 <li>Free-flowing Filtered Drinking Water</li>
                 <li>Clothes Drying rack</li>
                 <li>Satellite WiFi</li>
@@ -205,7 +196,20 @@
   <script src="src/js/main.js"></script>
 
   <script>
-    const swiper = new Swiper('#seaviewCabinSwiper', {
+    const seaviewCabinSwiper = new Swiper('#seaviewCabinSwiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    const regularCabinSwiper = new Swiper('#regularCabinSwiper', {
       loop: true,
       pagination: {
         el: '.swiper-pagination',
