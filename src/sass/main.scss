@@ -140,7 +140,39 @@ $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
   --bs-body-font-family: var(--#{$prefix}font-montserrat);
 }
 
+.swiper-button-prev {
+  left: -44px;
+}
+
+.swiper-button-next {
+  right: -44px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: inline-block;
+  font-family: "bootstrap-icons" !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.swiper-button-prev:after {
+  content: "\f12a";
+}
+
+.swiper-button-next:after {
+  content: "\f134";
+}
+
 @import "includes/header";
 @import "includes/footer";
 
 @import "pages/home";
+@import "pages/about";
+@import "pages/nature_lodges";

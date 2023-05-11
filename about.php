@@ -25,8 +25,8 @@
   <?php $currentPage = "about";
   include "includes/header.php"; ?>
 
-  <main>
-    <section class="min-vh-100 pt-10 pb-3 text-center text-white d-grid align-items-center" style="background: url('src/images/bg_about.jpg') no-repeat center top;">
+  <main id="about">
+    <section class="min-vh-100 pt-10 pb-3 text-center text-white d-grid align-items-center" style="background: url('src/images/bg_about.jpg') no-repeat center top; background-size: cover;">
       <div class="container">
         <h1 class="display-5 font-cormorant fw-bold mb-4">Eco Sanctuaries Story</h1>
         <div class="col-lg-5 mx-auto">
@@ -39,7 +39,9 @@
     <section>
       <div class="container py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-3 text-center">Sustainability and Nature</h2>
-        <p class="text-center mb-7">Situated in one of the Philippines' most biodiverse locations, we have a commitment towards ensuring that as an eco resort, we champion programs and policies that ensure that we only do good for our land and surroundings and all life that depend on it.</p>
+        <div class="col-lg-9 mx-auto">
+          <p class="text-center mb-7">Situated in one of the Philippines' most biodiverse locations, we have a commitment towards ensuring that as an eco resort, we champion programs and policies that ensure that we only do good for our land and surroundings and all life that depend on it.</p>
+        </div>
 
         <div class="row g-3">
           <div class="col-lg-6">
@@ -73,8 +75,9 @@
     <section class="bg-beige">
       <div class="container py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-3 text-center">Culture and Communities</h2>
-        <p class="text-center mb-7">We strive to promote local culture in everything we do and everything you see in our sanctuary. Communities make up culture, and we promote working with local communities which you will see from the team members we employ down to everything in our supply chain and aesthetics. This also enables us to give livelihood to members of local communities within Palawan, and other parts of the Philippines.</p>
-
+        <div class="col-lg-10 mx-auto">
+          <p class="text-center mb-7">We strive to promote local culture in everything we do and everything you see in our sanctuary. Communities make up culture, and we promote working with local communities which you will see from the team members we employ down to everything in our supply chain and aesthetics. This also enables us to give livelihood to members of local communities within Palawan, and other parts of the Philippines.</p>
+        </div>
         <div class="row g-3">
           <div class="col-lg-6">
             <img src="src/images/about/nature_1.jpg" alt="" class="img-fluid">
@@ -105,7 +108,9 @@
     <section>
       <div class="container py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-3 text-center">Wellness In and Out</h2>
-        <p class="text-center mb-7">Our sanctuary was designed to be a place for people and nature. We host yoga and nature retreats and safe spaces for communities to connect inwards, outwards, and to nature all around them, hopefully inspiring healthy relationships to self, community, and the environment we all depend on. We are continuously transforming our space to host wellness activities beyond retreats, using healing techniques and modalities.</p>
+        <div class="col-lg-10 mx-auto">
+          <p class="text-center mb-7">Our sanctuary was designed to be a place for people and nature. We host yoga and nature retreats and safe spaces for communities to connect inwards, outwards, and to nature all around them, hopefully inspiring healthy relationships to self, community, and the environment we all depend on. We are continuously transforming our space to host wellness activities beyond retreats, using healing techniques and modalities.</p>
+        </div>
 
         <div class="row g-3">
           <div class="col-lg-6">

@@ -1,0 +1,19 @@
+#nature-lodges {
+  .swiper {
+    &:hover {
+      .swiper-button-prev {
+        left: 25px;
+      }
+
+      .swiper-button-next {
+        right: 25px;
+      }
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    transition: all 0.3s;
+    width: 44px;
+  }
+}
