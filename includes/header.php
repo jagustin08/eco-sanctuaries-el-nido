@@ -15,7 +15,7 @@
                     <button type="button" class="btn-close btn-close-white m-0 shadow-none position-absolute" data-bs-dismiss="offcanvas" aria-label="Close" style="right: 16px"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-center flex-grow-1 gap-lg-4">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-lg-4">
                         <li class="nav-item <?php echo ($currentPage == "home" ? "active" : "") ?>">
                             <!-- <a class="nav-link text-beige-hover" href="https://www.ecosanctuarieselnido.com/">Home</a> -->
                             <a class="nav-link text-beige-hover" href="index.php">Home</a>
@@ -32,8 +32,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-beige-hover" href="#contact-us">Contact us</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-beige-hover" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank">Book now</a>
+                        </li>
                     </ul>
-                    <a class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant border-0 px-4 mt-3 mt-lg-0 w-100 w-lg-auto" href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" style="height: 35px;" target="_blank">Book now</a>
                 </div>
             </div>
         </div>

@@ -214,7 +214,7 @@
     <section>
       <div class="container py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-7 text-center">FAQ's</h2>
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordionExample" style="--bs-accordion-active-bg: transparent; --bs-accordion-btn-focus-box-shadow: none">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
