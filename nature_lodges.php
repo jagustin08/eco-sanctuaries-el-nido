@@ -227,7 +227,7 @@
 
     <section>
       <div class="container pt-7">
-        <h2 class="text-center display-6 font-cormorant fw-bold mb-7">General Notes and Reminders about <br>Accommodations</h2>
+        <h2 class="mx-auto text-center display-6 font-cormorant fw-bold mb-7" style="max-width: 850px">General Notes and Reminders about Accommodations</h2>
         <div class="row">
           <div class="mb-3 col-lg-6 mb-lg-0">
             <ul class="gap-3 mb-0 vstack" style="padding-left: 2rem">
