@@ -24133,6 +24133,9 @@ textarea.form-control-lg {
   background-color: var(--beige);
 }
 
+#nature-lodges .swiper:hover {
+  cursor: zoom-in;
+}
 #nature-lodges .swiper:hover .swiper-button-prev {
   left: 25px;
   opacity: 1;

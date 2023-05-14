@@ -1,6 +1,8 @@
 #nature-lodges {
   .swiper {
     &:hover {
+      cursor: zoom-in;
+
       .swiper-button-prev {
         left: 25px;
         opacity: 1;
