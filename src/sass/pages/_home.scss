@@ -4,18 +4,20 @@
   .swiper {
     &:hover {
       .swiper-button-prev {
-        left: 50px;
+        left: 0;
+        opacity: 1;
       }
 
       .swiper-button-next {
-        right: 50px;
+        right: 0;
+        opacity: 1;
       }
     }
   }
   .swiper-button-next,
   .swiper-button-prev {
     transition: all 0.3s;
-    transform: translateY(-50%);
+    transform: translateY(calc(-50% - 16px));
     width: 44px;
   }
 

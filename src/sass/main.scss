@@ -142,10 +142,12 @@ $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
 
 .swiper-button-prev {
   left: -44px;
+  opacity: 0;
 }
 
 .swiper-button-next {
   right: -44px;
+  opacity: 0;
 }
 
 .swiper-button-next:after,

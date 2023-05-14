@@ -3,10 +3,12 @@
     &:hover {
       .swiper-button-prev {
         left: 25px;
+        opacity: 1;
       }
 
       .swiper-button-next {
         right: 25px;
+        opacity: 1;
       }
     }
   }

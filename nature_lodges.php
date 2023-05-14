@@ -26,10 +26,10 @@
   include "includes/header.php"; ?>
 
   <main id="nature-lodges">
-    <section class="min-vh-100 pt-10 pb-3 text-center text-light d-grid align-items-center" style="background: url('src/images/bg_nature_lodges.jpg') no-repeat center center; background-size: cover">
+    <section class="pt-10 pb-3 text-center min-vh-100 text-light d-grid align-items-center" style="background: url('src/images/bg_nature_lodges.jpg') no-repeat center center; background-size: cover;">
       <div class="container">
-        <h1 class="display-5 font-cormorant fw-bold mb-4">Nature Lodges</h1>
-        <div class="col-lg-5 mx-auto">
+        <h1 class="mb-4 display-5 font-cormorant fw-bold">Nature Lodges</h1>
+        <div class="mx-auto col-lg-5">
           <p class="mb-10">Feel close to nature with a mountain backdrop and ocean views and experience rest and tranquility in our sanctuary.</p>
           <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
@@ -38,21 +38,19 @@
 
     <section>
       <div class="container text-center py-7">
-        <div class="col-lg-10 mx-auto">
-          <p>This is the place for you if you want to relax, disconnect, hear sounds of birds when you wake up, sleep calmly to the sound of ocean waves and nature. Away from crowds in Nacpan and El Nido surrounded by nature in a beautiful beachfront location with a mountain as our backdrop and the ocean as our daily view.</p>
-          <p>True to our ethos, we strive to be as eco-friendly as possible. We are 100% solar-powered utilizing renewable energy. We have no airconditioning, but the lodges were designed to be cool and comfortable, with thanks as well to the ocean breeze and fresh air circulating through the lodges.</p>
-          <p>All beachfront lodges make use of natural and locally handcrafted products, supporting indigenous communities and promoting Filipino culture. Our coffee and tea in your rooms were sourced from local Filipino farmers and even the soap and shampoo were made by Palawan locals. The Eco Sanctuary experience is a Filipino showcase.</p>
-        </div>
+        <p>This is the place for you if you want to relax, disconnect, hear sounds of birds when you wake up, sleep calmly to the sound of ocean waves and nature. Away from crowds in Nacpan and El Nido surrounded by nature in a beautiful beachfront location with a mountain as our backdrop and the ocean as our daily view.</p>
+        <p>True to our ethos, we strive to be as eco-friendly as possible. We are 100% solar-powered utilizing renewable energy. We have no airconditioning, but the lodges were designed to be cool and comfortable, with thanks as well to the ocean breeze and fresh air circulating through the lodges.</p>
+        <p>All beachfront lodges make use of natural and locally handcrafted products, supporting indigenous communities and promoting Filipino culture. Our coffee and tea in your rooms were sourced from local Filipino farmers and even the soap and shampoo were made by Palawan locals. The Eco Sanctuary experience is a Filipino showcase.</p>
       </div>
     </section>
 
     <section class="bg-dark text-light">
       <div class="container py-7">
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-0 mt-4 mt-lg-0">
-            <h2 class="display-6 font-cormorant fw-bold mb-4">Beachfront Lodge with Sea View Balcony</h2>
+          <div class="order-1 mt-4 col-lg-6 order-lg-0 mt-lg-0">
+            <h2 class="mb-4 display-6 font-cormorant fw-bold">Beachfront Lodge with Sea View Balcony</h2>
             <div class="row g-0">
-              <ul class="col-md-6 mb-0" style="padding-left: 2rem">
+              <ul class="mb-0 col-md-6" style="padding-left: 2rem">
                 <li>Beachfront</li>
                 <li>Daily Cleaning / Housekeeping</li>
                 <li>Queen Bed (up to 2 Beds)</li>
@@ -63,7 +61,7 @@
                 <li>Organic Body Wash / Shampoo</li>
                 <li>Handsoap</li>
               </ul>
-              <ul class="col-md-6 mb-0" style="padding-left: 2rem">
+              <ul class="mb-0 col-md-6" style="padding-left: 2rem">
                 <li>Cabinet with hangers</li>
                 <li>Beach and Bath Towel</li>
                 <li>Tissue</li>
@@ -73,44 +71,67 @@
                 <li>Satellite WiFi</li>
                 <li>Stand Fan</li>
               </ul>
-              <a href="#" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant mt-4" style="width: 142px; --bs-btn-padding-y: 10px;">Book now</a>
+              <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="mt-4 btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 142px; --bs-btn-padding-y: 10px;">Book now</a>
             </div>
           </div>
+
           <div class="col-lg-6">
             <div class="swiper" id="seaviewCabinSwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide img-1" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/1.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/1.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/1.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-2" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/2.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/2.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/2.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-3" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/3.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/3.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/3.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-4" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/4.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/4.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/4.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-5" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/5.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/5.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/5.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-6" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/6.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/6.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/6.jpg" alt="Seaview cabin images" class="object-fit-cover" style="object-position: bottom">
+                  </div>
                 </div>
                 <div class="swiper-slide img-7" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/7.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/7.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/7.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-8" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/8.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/8.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/8.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-9" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/9.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/9.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/9.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-10" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/10.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/10.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/10.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-11" data-fancybox="seaviewCabin" data-src="src/images/nature_lodges/seaview_cabin/11.jpg">
-                  <img src="src/images/nature_lodges/seaview_cabin/11.jpg" alt="Seaview cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/seaview_cabin/11.jpg" alt="Seaview cabin images" class="object-fit-cover">
+                  </div>
                 </div>
               </div>
 
@@ -128,28 +149,44 @@
             <div class="swiper" id="regularCabinSwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide img-1" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/1.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/1.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/1.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-2" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/2.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/2.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/2.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-3" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/3.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/3.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/3.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-4" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/4.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/4.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/4.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-5" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/5.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/5.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/5.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-6" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/6.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/6.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/6.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-7" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/7.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/7.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/7.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
                 <div class="swiper-slide img-8" data-fancybox="regularCabin" data-src="src/images/nature_lodges/regular_cabin/8.jpg">
-                  <img src="src/images/nature_lodges/regular_cabin/8.jpg" alt="Regular cabin images" style="height:400px;" class="object-fit-cover w-100">
+                  <div class="ratio ratio-4x3">
+                    <img src="src/images/nature_lodges/regular_cabin/8.jpg" alt="Regular cabin images" class="object-fit-cover">
+                  </div>
                 </div>
               </div>
 
@@ -157,10 +194,10 @@
               <div class="swiper-button-next d-none d-md-block text-light"></div>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-0 mt-4 mt-lg-0">
-            <h2 class="display-6 font-cormorant fw-bold mb-4">Beachfront Cabin</h2>
+          <div class="order-1 mt-4 col-lg-6 order-lg-0 mt-lg-0">
+            <h2 class="mb-4 display-6 font-cormorant fw-bold">Beachfront Cabin</h2>
             <div class="row g-0">
-              <ul class="col-md-6 mb-0" style="padding-left: 2rem">
+              <ul class="mb-0 col-md-6" style="padding-left: 2rem">
                 <li>Beachfront</li>
                 <li>Daily Cleaning / Housekeeping</li>
                 <li>Queen Bed</li>
@@ -171,7 +208,7 @@
                 <li>Handsoap</li>
                 <li>Beach and Bath Towel</li>
               </ul>
-              <ul class="col-md-6 mb-0" style="padding-left: 2rem">
+              <ul class="mb-0 col-md-6" style="padding-left: 2rem">
                 <li>Cabinet with hangers</li>
                 <li>Tissue</li>
                 <li>In room Coffee and Tea</li>
@@ -181,7 +218,7 @@
                 <li>Satellite WiFi</li>
                 <li>Stand Fan</li>
               </ul>
-              <a href="#" class="btn btn-dark text-uppercase fs-7 fw-bold rounded-0 font-cormorant mt-4" style="width: 142px; --bs-btn-padding-y: 10px;">Book now</a>
+              <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="mt-4 btn btn-dark text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 142px; --bs-btn-padding-y: 10px;">Book now</a>
             </div>
           </div>
         </div>
@@ -189,10 +226,10 @@
 
     <section>
       <div class="container pt-7">
-        <h2 class="display-6 font-cormorant fw-bold mb-7 text-center">General Notes and Reminders about <br>Accommodations</h2>
+        <h2 class="text-center display-6 font-cormorant fw-bold mb-7">General Notes and Reminders about <br>Accommodations</h2>
         <div class="row">
-          <div class="col-lg-6 mb-3 mb-lg-0">
-            <ul class="vstack gap-3 mb-0" style="padding-left: 2rem">
+          <div class="mb-3 col-lg-6 mb-lg-0">
+            <ul class="gap-3 mb-0 vstack" style="padding-left: 2rem">
               <li>Regular published rate is for 2 people. The lodge with sea view balcony can host up to 4 people at an additional charge of Php1500/person, with 2 queen beds. The cabin is best for 2 people with 1 queen bed.</li>
               <li>Our lodges are all screened and protected from mosquitos, and we also have additional mosquito net draped around the bed when needed. However, bear in mind that we have a mountain behind us and are subject to nature&apos;s elements. You may not see them as they avoid humans, but there may be a harmless endemic gecko which you can hear sometimes at night, or sandflies by the beach depending on the season which is common in some of El Nido&apos;s beaches such as Nacpan. They are harmless. If you are sensitive to them, you can bring insect repellant for protection and we also sell repellants, and our accommodations are screened and protected with mosquito net drapings in the rooms as well, but if you are highly sensitive this may not be the best place for you. We have had a lot of children stay, and have been unharmed by them, but do remember we are in a natural setting.</li>
               <li>We are not a luxury resort. We do not have televisions, refrigerators in the rooms, heater for showers, and airconditioning. Our accommodations are designed to be breezy and maximize air flow, fresh air, and the ocean breeze, and are equipped with stand fans.</li>
@@ -200,7 +237,7 @@
             </ul>
           </div>
           <div class="col-lg-6">
-            <ul class="vstack gap-3 mb-0" style="padding-left: 2rem">
+            <ul class="gap-3 mb-0 vstack" style="padding-left: 2rem">
               <li>We have satellite wifi which are free to use for all guests but do not have signal from your cell provider given that we have a mountain behind us blocking the signal. The wifi is best for communications, emailing, social media.</li>
               <li>We do not currently allow newborns or those less than 2 years old, given that we understand that there may be more sensitivities to natural elements or allergies. We also do not have amenities such as cribs for babies. Thus, we do not accept. We can only accept shall a waiver be signed by the parents.</li>
               <li>Please add after the 5th bullet point: Given that our solar systems have maximum wattage capacity to ensure electricity 24/7 for the accommodations and no power disruptions, we hope you understand that appliances such as your own blowdryers, hair straighteners, electric kettles, and other heating devices with high wattage that can cause our system to overload may not be used.</li>
@@ -213,7 +250,7 @@
 
     <section>
       <div class="container py-7">
-        <h2 class="display-6 font-cormorant fw-bold mb-7 text-center">FAQ's</h2>
+        <h2 class="text-center display-6 font-cormorant fw-bold mb-7">FAQ's</h2>
         <div class="accordion" id="accordionExample" style="--bs-accordion-active-bg: transparent; --bs-accordion-btn-focus-box-shadow: none">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
