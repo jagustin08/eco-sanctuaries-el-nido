@@ -253,113 +253,113 @@
       <div class="container py-7">
         <h2 class="text-center display-6 font-cormorant fw-bold mb-7">FAQ's</h2>
         <div class="accordion" id="accordionExample" style="--bs-accordion-active-bg: transparent; --bs-accordion-btn-focus-box-shadow: none">
-          <div class="accordion-item">
+          <div class="mb-3 border accordion-item rounded-3">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <button class="p-4 shadow-none accordion-button collapsed rounded-3 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Food and drink
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul>
-                  <li>What time is breakfast served?</li>
-                  <p>A la carte breakfast is served daily from 8:00-10:00AM. If leaving early for a tour the next day, we can do 7:30AM and leave your advanced orders with the waiter the previous day to inform the kitchen.</p>
-                  <li>Can you cater to special dietary needs?</li>
-                  <p>Our restaurant offers a variety of dishes suitable for veg/non vegetarian preferences, and also kid-friendly meals. Our kitchen can customize meals however it is preferred that if you have strict special dietary needs you inform us ahead. Do note that we are in a remote location and we would need advanced notice if there are specialized equests.</p>
-                  <li>Can we bring food and cook/have your chef cook?</li>
-                  <p>We do not have cooking services or a kitchen that guests can use as indicated in our amenities. Only food ordered from the restaurant is allowed.</p>
-                  <li>Are we allowed to bring our own alcoholic beverages?</li>
-                  <p>In house guests may bring your own bottles at no corkage. However, please understand that we strive for a peaceful stay for our guests and excessive drinking and noise is not allowed.
+                  <li class="fw-semibold">What time is breakfast served?</li>
+                  <p class="text-secondary fs-7">A la carte breakfast is served daily from 8:00-10:00AM. If leaving early for a tour the next day, we can do 7:30AM and leave your advanced orders with the waiter the previous day to inform the kitchen.</p>
+                  <li class="fw-semibold">Can you cater to special dietary needs?</li>
+                  <p class="text-secondary fs-7">Our restaurant offers a variety of dishes suitable for veg/non vegetarian preferences, and also kid-friendly meals. Our kitchen can customize meals however it is preferred that if you have strict special dietary needs you inform us ahead. Do note that we are in a remote location and we would need advanced notice if there are specialized equests.</p>
+                  <li class="fw-semibold">Can we bring food and cook/have your chef cook?</li>
+                  <p class="text-secondary fs-7">We do not have cooking services or a kitchen that guests can use as indicated in our amenities. Only food ordered from the restaurant is allowed.</p>
+                  <li class="fw-semibold">Are we allowed to bring our own alcoholic beverages?</li>
+                  <p class="text-secondary fs-7">In house guests may bring your own bottles at no corkage. However, please understand that we strive for a peaceful stay for our guests and excessive drinking and noise is not allowed.
                   </p>
-                  <li>Do you serve sodas?</li>
-                  <p>Given that we encourage healthier options in our restaurant, we do not serve sodas but freshly prepared juices and shakes as non-alcoholic beverages.</p>
+                  <li class="fw-semibold">Do you serve sodas?</li>
+                  <p class="text-secondary fs-7">Given that we encourage healthier options in our restaurant, we do not serve sodas but freshly prepared juices and shakes as non-alcoholic beverages.</p>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
+          <div class="mb-3 border accordion-item rounded-3">
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button class="p-4 shadow-none accordion-button collapsed rounded-3 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Getting around
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul>
-                  <li>Where can we rent a scooter/hire a tricycle?</li>
-                  <p>You can rent a scooter from the public beach entrance past the I Love Nacpan sign, about a 15 minute walk from us by the beach. Just ask where scooters can be rented/where you can book tricycles. Scooter is Php600/day.</p>
-                  <li>What are the tours/experiences we can offer?</li>
-                  <p>Please check our Experiences tab.</p>
-                  <li>What are the places we can visit nearby with a scooter?</li>
-                  <ul class="mb-3">
+                  <li class="fw-semibold">Where can we rent a scooter/hire a tricycle?</li>
+                  <p class="text-secondary fs-7">You can rent a scooter from the public beach entrance past the I Love Nacpan sign, about a 15 minute walk from us by the beach. Just ask where scooters can be rented/where you can book tricycles. Scooter is Php600/day.</p>
+                  <li class="fw-semibold">What are the tours/experiences we can offer?</li>
+                  <p class=" text-secondary fs-7">Please check our <a href="experiences.php" class="text-beige">Experiences</a> tab.</p>
+                  <li class="fw-semibold">What are the places we can visit nearby with a scooter?</li>
+                  <ul class="mb-3 text-secondary fs-7">
                     <li>We recommend for you to go to Bulalacao Falls, which is just about 30 minutes from here. It is an easy walk crossing rivers in a forested area. The total walk is 45 minutes one way.</li>
-                    <li>f you like hiking, you can hike Mt. Mansilawit which is around 30 minutes from here. It is a 2.5-3 hour hike roundtrip. </li>
+                    <li>If you like hiking, you can hike Mt. Mansilawit which is around 30 minutes from here. It is a 2.5-3 hour hike roundtrip. </li>
                     <li>Further north, you can visit Ille Cave and the Dewil Mangrove River.</li>
                     <li>We can arrange private transport as well to take you to these places.</li>
                   </ul>
-                  <li>What are the options for transportation?</li>
-                  <ul class="mb-3">
-                    <li>Private 4x4 pickup transfer direct to our place which drives through the beach php2300/one way </li>
+                  <li class="fw-semibold">What are the options for transportation?</li>
+                  <ul class="mb-3 text-secondary fs-7">
+                    <li>Private 4x4 pickup transfer direct to our place which drives through the beach Php2300/one way </li>
                     <li>Public shuttle van that drops you off in Sunmai parking lot, from there you walk 15 minutes by the beach to our place. Php500/person. They have regular departures from town but not hourly.</li>
                     <li>Private van Php1500/way, drops you off in our private parking and you walk to us &lt; 10 mins by the beach.</li>
                     <li>Bring your own scooter/rent from town or hire a tricycle</li>
                   </ul>
-                  <li>How do we go to Puerto Princesa?</li>
-                  <ul class="mb-3">
+                  <li class="fw-semibold">How do we go to Puerto Princesa?</li>
+                  <ul class="mb-3 text-secondary fs-7">
                     <li>There are 2 ways: Private van which costs Php8000, or join the public shuttle vans that depart hourly from El Nido town van terminal the cost is around Php700-Php800/person. You will just need to go to the terminal and book your spot there, we cannot arrange the public van departures. </li>
                     <li>Puerto Princesa is about a 5.5 hour land travel from Nacpan.</li>
                   </ul>
-                  <li>How do we go to Coron?</li>
-                  <p>You can book a ticket online through Montenegro Shipping lines and look at their schedules of departures. You will go to El Nido port in town and from there take the ferry about 5 hours to Coron.</p>
-                  <li>Can you book our flights?</li>
-                  <p>As of now we do not arrange flights. You can book online direct flight from El Nido to Manila through Airswift Airlines.</p>
+                  <li class="fw-semibold">How do we go to Coron?</li>
+                  <p class="text-secondary fs-7">You can book a ticket online through Montenegro Shipping lines and look at their schedules of departures. You will go to El Nido port in town and from there take the ferry about 5 hours to Coron.</p>
+                  <li class="fw-semibold">Can you book our flights?</li>
+                  <p class="text-secondary fs-7">As of now we do not arrange flights. You can book online direct flight from El Nido to Manila through Airswift Airlines.</p>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
+          <div class="mb-3 border accordion-item rounded-3">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button class="p-4 shadow-none accordion-button collapsed rounded-3 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Planning your stay
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul>
-                  <li>Are there ATMs nearby?</li>
-                  <p>There are no ATMs nearby and best to bring cash already prior to your arrival. Credit card payments are accepted through PayPal but with a 5% charge for PayPal and interbank fees.</p>
-                  <li>Can we do long term stays?</li>
-                  <p>Long term stays are allowed. Email <a href="mailto:ecosanctuarieselnido@gmail.com" class="text-beige">ecosanctuarieselnido@gmail.com</a> for discounted rates and to coordinate.</p>
-                  <li>What are your refund and cancellation policies?</li>
-                  <p>The booking is non-refundable if cancelled within 30 days prior to arrival, and may only be rescheduled or refunded due to force majeure and natural calamities.</p>
-                  <li>Are we allowed to bring pets? </li>
-                  <p>Pets are allowed, however not on any of the beds and must be leashed on all times within the vicinity. There is a pet charge of Php1,000/night. An additional P2,000 cash security deposit will be required upon check-in for damages or stains incurred by pets, if any and will be returned if not used. Any damages to furniture assessed by team from bites of pets or scratches will have to be charged the full amount for brand new replacement.</p>
+                  <li class="fw-semibold">Are there ATMs nearby?</li>
+                  <p class="text-secondary fs-7">There are no ATMs nearby and best to bring cash already prior to your arrival. Credit card payments are accepted through PayPal but with a 5% charge for PayPal and interbank fees.</p>
+                  <li class="fw-semibold">Can we do long term stays?</li>
+                  <p class="text-secondary fs-7">Long term stays are allowed. Email <a href="mailto:ecosanctuarieselnido@gmail.com" class="text-beige">ecosanctuarieselnido@gmail.com</a> for discounted rates and to coordinate.</p>
+                  <li class="fw-semibold">What are your refund and cancellation policies?</li>
+                  <p class="text-secondary fs-7">The booking is non-refundable if cancelled within 30 days prior to arrival, and may only be rescheduled or refunded due to force majeure and natural calamities.</p>
+                  <li class="fw-semibold">Are we allowed to bring pets? </li>
+                  <p class="text-secondary fs-7">Pets are allowed, however not on any of the beds and must be leashed on all times within the vicinity. There is a pet charge of Php1000/night. An additional Php2000 cash security deposit will be required upon check-in for damages or stains incurred by pets, if any and will be returned if not used. Any damages to furniture assessed by team from bites of pets or scratches will have to be charged the full amount for brand new replacement.</p>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
+          <div class="mb-3 border accordion-item rounded-3">
             <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <button class="p-4 shadow-none accordion-button collapsed rounded-3 fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 During your stay
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul>
-                  <li>Is smoking allowed?</li>
-                  <p>Smoking is prohibited within the property and only allowed outside of the property, but cigarette butts must be disposed of properly. Only vape is allowed within the restaurant/property but must not be blown directly to guests.</p>
-                  <li>Can we do bonfire?</li>
-                  <p>Bonfires are not allowed as most of our infrastructure makes use of native materials and we are near a forest.</p>
-                  <li>Do you do laundry service?</li>
-                  <p>We can do your laundry for Php100/kilo. We will wash and dry them here. </p>
-                  <li>Until what time is housekeeping?</li>
-                  <p>Housekeeping is available until 6:00PM.</p>
-                  <li>Do you have yoga sessions?</li>
-                  <p>As of now the yoga is by request for private session and we will check with teacher on availability. It is Php3500 for up to 5 people. But we are working to have daily yoga here in the sanctuary soon.</p>
+                  <li class="fw-semibold">Is smoking allowed?</li>
+                  <p class="text-secondary fs-7">Smoking is prohibited within the property and only allowed outside of the property, but cigarette butts must be disposed of properly. Only vape is allowed within the restaurant/property but must not be blown directly to guests.</p>
+                  <li class="fw-semibold">Can we do bonfire?</li>
+                  <p class="text-secondary fs-7">Bonfires are not allowed as most of our infrastructure makes use of native materials and we are near a forest.</p>
+                  <li class="fw-semibold">Do you do laundry service?</li>
+                  <p class="text-secondary fs-7">We can do your laundry for Php100/kilo. We will wash and dry them here. </p>
+                  <li class="fw-semibold">Until what time is housekeeping?</li>
+                  <p class="text-secondary fs-7">Housekeeping is available until 6:00PM.</p>
+                  <li class="fw-semibold">Do you have yoga sessions?</li>
+                  <p class="text-secondary fs-7">As of now the yoga is by request for private session and we will check with teacher on availability. It is Php3500 for up to 5 people. But we are working to have daily yoga here in the sanctuary soon.</p>
                 </ul>
               </div>
             </div>

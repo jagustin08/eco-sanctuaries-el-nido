@@ -1,3 +1,5 @@
+@import "../../../node_modules/bootstrap/scss/variables";
+
 #nature-lodges {
   .swiper {
     &:hover {
@@ -19,5 +21,34 @@
   .swiper-button-prev {
     transition: all 0.3s;
     width: 44px;
+  }
+
+  .accordion-button::after {
+    width: 36px;
+    height: 36px;
+    background-color: #f3f6ff;
+    border-radius: 50%;
+    content: "\f282";
+    background-image: none;
+    display: grid;
+    font-family: "bootstrap-icons" !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    justify-content: center;
+    align-content: center;
+    transition: all 0.35s;
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    box-shadow: 0 -0.5rem 1.125rem -0.5rem var(--bs-dark-bg-subtle);
   }
 }
