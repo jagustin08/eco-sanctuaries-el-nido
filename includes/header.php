@@ -5,9 +5,9 @@
                 <img src="src/images/logo.png" alt="Eco Sanctuaries logo" class="img-fluid">
             </a>
             <button class="navbar-toggler shadow-none border-0 position-absolute" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation" style="right: 12px">
-                <span class="navbar-icon d-block bg-white opacity-50" style="height: 2px; width: 25px"></span>
-                <span class="navbar-icon d-block bg-white opacity-50 my-1" style="height: 2px; width: 25px"></span>
-                <span class="navbar-icon d-block bg-white opacity-50" style="height: 2px; width: 25px"></span>
+                <span class="navbar-icon d-block bg-light opacity-50" style="height: 2px; width: 25px"></span>
+                <span class="navbar-icon d-block bg-light opacity-50 my-1" style="height: 2px; width: 25px"></span>
+                <span class="navbar-icon d-block bg-light opacity-50" style="height: 2px; width: 25px"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                 <div class="offcanvas-header position-relative">

@@ -26,7 +26,7 @@
   include "includes/header.php"; ?>
 
   <main id="nature-lodges">
-    <section class="min-vh-100 pt-10 pb-3 text-center text-white d-grid align-items-center" style="background: url('src/images/bg_nature_lodges.jpg') no-repeat center center; background-size: cover">
+    <section class="min-vh-100 pt-10 pb-3 text-center text-light d-grid align-items-center" style="background: url('src/images/bg_nature_lodges.jpg') no-repeat center center; background-size: cover">
       <div class="container">
         <h1 class="display-5 font-cormorant fw-bold mb-4">Nature Lodges</h1>
         <div class="col-lg-5 mx-auto">
@@ -46,7 +46,7 @@
       </div>
     </section>
 
-    <section class="bg-dark text-white">
+    <section class="bg-dark text-light">
       <div class="container py-7">
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-0 mt-4 mt-lg-0">
@@ -114,8 +114,8 @@
                 </div>
               </div>
 
-              <div class="swiper-button-prev d-none d-md-block text-white"></div>
-              <div class="swiper-button-next d-none d-md-block text-white"></div>
+              <div class="swiper-button-prev d-none d-md-block text-light"></div>
+              <div class="swiper-button-next d-none d-md-block text-light"></div>
             </div>
           </div>
         </div>
@@ -153,8 +153,8 @@
                 </div>
               </div>
 
-              <div class="swiper-button-prev d-none d-md-block text-white"></div>
-              <div class="swiper-button-next d-none d-md-block text-white"></div>
+              <div class="swiper-button-prev d-none d-md-block text-light"></div>
+              <div class="swiper-button-next d-none d-md-block text-light"></div>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-0 mt-4 mt-lg-0">

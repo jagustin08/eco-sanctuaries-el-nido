@@ -26,7 +26,7 @@
   include "includes/header.php"; ?>
 
   <main id="about">
-    <section class="min-vh-100 pt-10 pb-3 text-center text-white d-grid align-items-center" style="background: url('src/images/bg_about.jpg') no-repeat center top; background-size: cover;">
+    <section class="min-vh-100 pt-10 pb-3 text-center text-light d-grid align-items-center" style="background: url('src/images/bg_about.jpg') no-repeat center top; background-size: cover;">
       <div class="container">
         <h1 class="display-5 font-cormorant fw-bold mb-4">Eco Sanctuaries Story</h1>
         <div class="col-lg-5 mx-auto">

@@ -26,7 +26,7 @@
   include "includes/header.php"; ?>
 
   <main id="home">
-    <section class="min-vh-100 pt-10 pb-3 text-center text-white d-grid align-items-center" style="background: url('src/images/bg_home.jpg') no-repeat center top; background-size: cover;">
+    <section class="min-vh-100 pt-10 pb-3 text-center text-light d-grid align-items-center" style="background: url('src/images/bg_home.jpg') no-repeat center top; background-size: cover;">
       <div class="container">
         <img src="src/images/logo_eco_sanctuaries.svg" alt="Eco Sanctuaries logo" class="logo mb-5">
         <h1 class="display-5 font-cormorant fw-bold mb-4">A Sanctuary for People and Nature</h1>
@@ -47,39 +47,52 @@
       </div>
     </section>
 
-    <section class="bg-beige">
+    <section class="bg-beige text-light">
       <div class="container-lg py-7">
         <h2 class="display-6 font-cormorant fw-bold text-center mb-7">The Eco Sanctuaries Experience</h2>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
           <div class="col position-relative">
-            <img src="src/images/home/nature_lodges.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Nature Lodges</h3>
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/nature_lodges.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Nature Lodges</h3>
+          </div>
+
+
+          <div class="col position-relative">
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/sustainability.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Sustainability</h3>
           </div>
 
           <div class="col position-relative">
-            <img src="src/images/home/sustainability.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Sustainability</h3>
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/wellness_activities.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Wellness Activities</h3>
           </div>
 
           <div class="col position-relative">
-            <img src="src/images/home/wellness_activities.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Wellness Activities</h3>
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/ecotourism.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Ecotourism</h3>
           </div>
 
           <div class="col position-relative">
-            <img src="src/images/home/ecotourism.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Ecotourism</h3>
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/culinary_offerings.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Culinary Offerings</h3>
           </div>
 
           <div class="col position-relative">
-            <img src="src/images/home/culinary_offerings.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Culinary Offerings</h3>
-          </div>
-
-          <div class="col position-relative">
-            <img src="src/images/home/local_livelihood.jpg" alt="" class="img-fluid object-fit-cover w-100" style="height: 297px">
-            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3 text-white">Local Livelihood</h3>
+            <div class="ratio ratio-1x1">
+              <img src="src/images/home/local_livelihood.jpg" alt="" class="img-fluid object-fit-cover">
+            </div>
+            <h3 class="fs-5 position-absolute bottom-0 mb-0 p-3">Local Livelihood</h3>
           </div>
         </div>
       </div>
