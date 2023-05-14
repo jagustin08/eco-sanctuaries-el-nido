@@ -31,7 +31,7 @@
         <h1 class="display-5 font-cormorant fw-bold mb-4">Eco Sanctuaries Story</h1>
         <div class="col-lg-5 mx-auto">
           <p class="mb-10">We are committed to an approach towards regenerative tourism whilst empowering local communities, caring for nature, culture, and the guests we serve.</p>
-          <a href="#" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
+          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
       </div>
     </section>
@@ -39,15 +39,15 @@
     <section>
       <div class="container py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-3 text-center">Sustainability and Nature</h2>
-        <div class="col-lg-9 mx-auto">
-          <p class="text-center mb-7">Situated in one of the Philippines' most biodiverse locations, we have a commitment towards ensuring that as an eco resort, we champion programs and policies that ensure that we only do good for our land and surroundings and all life that depend on it.</p>
+        <div class="col-lg-9 mx-auto text-center">
+          <p class="mb-7">Situated in one of the Philippines' most biodiverse locations, we have a commitment towards ensuring that as an eco resort, we champion programs and policies that ensure that we only do good for our land and surroundings and all life that depend on it.</p>
         </div>
 
         <div class="row g-3">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/local_1.jpg" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/local_2.jpg" alt="" class="img-fluid">
           </div>
         </div>
@@ -79,10 +79,10 @@
           <p class="text-center mb-7">We strive to promote local culture in everything we do and everything you see in our sanctuary. Communities make up culture, and we promote working with local communities which you will see from the team members we employ down to everything in our supply chain and aesthetics. This also enables us to give livelihood to members of local communities within Palawan, and other parts of the Philippines.</p>
         </div>
         <div class="row g-3">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/nature_1.jpg" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/nature_2.jpg" alt="" class="img-fluid">
           </div>
         </div>
@@ -113,10 +113,10 @@
         </div>
 
         <div class="row g-3">
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/culture_1.jpg" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
             <img src="src/images/about/culture_2.jpg" alt="" class="img-fluid">
           </div>
         </div>

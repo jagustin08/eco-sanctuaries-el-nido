@@ -32,7 +32,7 @@
         <h1 class="display-5 font-cormorant fw-bold mb-4">A Sanctuary for People and Nature</h1>
         <div class="col-lg-5 mx-auto">
           <p class="mb-10">We are a sanctuary for people and nature in Nacpan beach, located in one of the most biodiverse islands in the Philippines and one of the world's best islands, El Nido, Palawan.</p>
-          <a href="#" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
+          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
       </div>
     </section>
@@ -51,7 +51,7 @@
       <div class="container-lg py-7">
         <h2 class="display-6 font-cormorant fw-bold text-center mb-7">The Eco Sanctuaries Experience</h2>
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
           <div class="col position-relative">
             <div class="ratio ratio-1x1">
               <img src="src/images/home/nature_lodges.jpg" alt="" class="img-fluid object-fit-cover">
@@ -99,7 +99,7 @@
     </section>
 
     <section class="text-center">
-      <div class="container py-7">
+      <div class="container-xl py-7">
         <h2 class="display-6 font-cormorant fw-bold mb-3">Testimonials</h2>
 
         <div class="swiper pb-5">

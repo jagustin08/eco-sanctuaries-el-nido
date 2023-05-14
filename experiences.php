@@ -31,7 +31,7 @@
         <h1 class="display-5 font-cormorant fw-bold mb-4">Eco Sanctuaries Experiences</h1>
         <div class="col-lg-5 mx-auto">
           <p class="mb-10">Discover paradise through a variety of experiences in and out of the sanctuary.</p>
-          <a href="#" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
+          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
       </div>
     </section>

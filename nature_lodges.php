@@ -31,7 +31,7 @@
         <h1 class="display-5 font-cormorant fw-bold mb-4">Nature Lodges</h1>
         <div class="col-lg-5 mx-auto">
           <p class="mb-10">Feel close to nature with a mountain backdrop and ocean views and experience rest and tranquility in our sanctuary.</p>
-          <a href="#" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
+          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
       </div>
     </section>
