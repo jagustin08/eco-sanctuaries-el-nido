@@ -292,21 +292,21 @@
                   <li>What are the tours/experiences we can offer?</li>
                   <p>Please check our Experiences tab.</p>
                   <li>What are the places we can visit nearby with a scooter?</li>
-                  <ul>
+                  <ul class="mb-3">
                     <li>We recommend for you to go to Bulalacao Falls, which is just about 30 minutes from here. It is an easy walk crossing rivers in a forested area. The total walk is 45 minutes one way.</li>
                     <li>f you like hiking, you can hike Mt. Mansilawit which is around 30 minutes from here. It is a 2.5-3 hour hike roundtrip. </li>
                     <li>Further north, you can visit Ille Cave and the Dewil Mangrove River.</li>
                     <li>We can arrange private transport as well to take you to these places.</li>
                   </ul>
                   <li>What are the options for transportation?</li>
-                  <ul>
+                  <ul class="mb-3">
                     <li>Private 4x4 pickup transfer direct to our place which drives through the beach php2300/one way </li>
                     <li>Public shuttle van that drops you off in Sunmai parking lot, from there you walk 15 minutes by the beach to our place. Php500/person. They have regular departures from town but not hourly.</li>
                     <li>Private van Php1500/way, drops you off in our private parking and you walk to us &lt; 10 mins by the beach.</li>
                     <li>Bring your own scooter/rent from town or hire a tricycle</li>
                   </ul>
                   <li>How do we go to Puerto Princesa?</li>
-                  <ul>
+                  <ul class="mb-3">
                     <li>There are 2 ways: Private van which costs Php8000, or join the public shuttle vans that depart hourly from El Nido town van terminal the cost is around Php700-Php800/person. You will just need to go to the terminal and book your spot there, we cannot arrange the public van departures. </li>
                     <li>Puerto Princesa is about a 5.5 hour land travel from Nacpan.</li>
                   </ul>
