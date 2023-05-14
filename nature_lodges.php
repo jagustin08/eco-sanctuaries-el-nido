@@ -18,6 +18,7 @@
   <link rel="manifest" href="src/images/favicon/site.webmanifest">
 
   <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+  <link href="node_modules/@fancyapps/ui/dist/fancybox/fancybox.css" rel="stylesheet">
   <link rel="stylesheet" href="src/css/main.css">
 </head>
 
@@ -371,6 +372,7 @@
   <?php include "includes/footer.php"; ?>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
   <script src="node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="src/js/main.js"></script>
@@ -401,6 +403,8 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
+    Fancybox.bind();
   </script>
 </body>
 
