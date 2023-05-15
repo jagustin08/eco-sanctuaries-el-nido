@@ -24075,6 +24075,15 @@ textarea.form-control-lg {
   content: "\f134";
 }
 
+.image-hover {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(11, 10, 18, 0.5);
+}
+.image-hover:hover {
+  opacity: 1;
+}
+
 :root {
   --white: #ffffff;
   --light-black: #41423d;

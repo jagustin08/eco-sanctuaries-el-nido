@@ -18,6 +18,7 @@
   <link rel="manifest" href="src/images/favicon/site.webmanifest">
 
   <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+  <link href="node_modules/@fancyapps/ui/dist/fancybox/fancybox.css" rel="stylesheet">
   <link rel="stylesheet" href="src/css/main.css">
 </head>
 
@@ -28,68 +29,86 @@
   <main id="home">
     <section class="pt-10 pb-3 text-center min-vh-100 text-light d-grid align-items-center" style="background: url('src/images/bg_home.jpg') no-repeat center top; background-size: cover;">
       <div class="container">
-        <img src="src/images/logo_eco_sanctuaries.svg" alt="Eco Sanctuaries logo" class="mb-5 img-fluid logo">
-        <h1 class="mb-4 display-5 font-cormorant fw-bold">A Sanctuary for People and Nature</h1>
+        <img src="src/images/logo_eco_sanctuaries.svg" alt="Eco Sanctuaries logo" class="mb-5 img-fluid logo fade-up">
+        <h1 class="mb-4 display-5 font-cormorant fw-bold fade-up">A Sanctuary for People and Nature</h1>
         <div class="mx-auto" style="max-width: 640px;">
-          <p class="mb-10">We are a sanctuary for people and nature in Nacpan beach, located in one of the most biodiverse islands in the Philippines and one of the world's best islands, El Nido, Palawan.</p>
-          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
+          <p class="mb-10 fade-up">We are a sanctuary for people and nature in Nacpan beach, located in one of the most biodiverse islands in the Philippines and one of the world's best islands, El Nido, Palawan.</p>
+          <a href="https://staahmax.staah.net/be/index_be?propertyId=NTY5OQ==&individual=true" target="_blank" class="btn btn-beige text-uppercase fs-7 fw-bold rounded-0 font-cormorant fade-up" style="width: 200px; --bs-btn-padding-y: 13px;">Book now</a>
         </div>
       </div>
     </section>
 
     <section class="text-center">
       <div class="container py-9">
-        <h2 class="mb-4 display-6 font-cormorant fw-bold">We are more than just an accommodation</h2>
+        <h2 class="mb-4 display-6 font-cormorant fw-bold fade-up">We are more than just an accommodation</h2>
         <div class="mx-auto" style="max-width: 620px;">
-          <p class="mb-7">Our ethos consists of three pillars: NATURE, WELLNESS, COMMUNITY, seeking to contribute to the welfare of our guests, our surrounding community, and the environment around us.</p>
-          <a href="about.php" class="btn btn-dark text-uppercase fs-7 fw-bold rounded-0 font-cormorant" style="width: 200px; --bs-btn-padding-y: 13px;">Learn more</a>
+          <p class="mb-7 fade-up">Our ethos consists of three pillars: NATURE, WELLNESS, COMMUNITY, seeking to contribute to the welfare of our guests, our surrounding community, and the environment around us.</p>
+          <a href="about.php" class="btn btn-dark text-uppercase fs-7 fw-bold rounded-0 font-cormorant fade-up" style="width: 200px; --bs-btn-padding-y: 13px;">Learn more</a>
         </div>
       </div>
     </section>
 
     <section class="bg-beige">
       <div class="container py-7">
-        <h2 class="text-center display-6 font-cormorant fw-bold mb-7">The Eco Sanctuaries Experience</h2>
+        <h2 class="text-center display-6 font-cormorant fw-bold mb-7 fade-up">The Eco Sanctuaries Experience</h2>
 
         <div class="row g-3 text-light">
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
-              <img src="src/images/home/nature_lodges.jpg" alt="" class="img-fluid object-fit-cover">
+              <img src="src/images/home/nature_lodges.jpg" alt="" class="img-fluid object-fit-cover image">
+              <a href="src/images/home/nature_lodges.jpg" class="text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Nature Lodges</h3>
           </div>
 
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
               <img src="src/images/home/sustainability.jpg" alt="" class="img-fluid object-fit-cover">
+              <a href="src/images/home/sustainability.jpg" class=" text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Sustainability</h3>
           </div>
 
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
               <img src="src/images/home/wellness_activities.jpg" alt="" class="img-fluid object-fit-cover">
+              <a href="src/images/home/wellness_activities.jpg" class=" text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Wellness Activities</h3>
           </div>
 
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
               <img src="src/images/home/ecotourism.jpg" alt="" class="img-fluid object-fit-cover">
+              <a href="src/images/home/ecotourism.jpg" class=" text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Ecotourism</h3>
           </div>
 
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
               <img src="src/images/home/culinary_offerings.jpg" alt="" class="img-fluid object-fit-cover">
+              <a href="src/images/home/culinary_offerings.jpg" class=" text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Culinary Offerings</h3>
           </div>
 
-          <div class="col-md-6 col-lg-4 position-relative">
+          <div class="col-md-6 col-lg-4 position-relative fade-up">
             <div class="ratio ratio-4x3">
               <img src="src/images/home/local_livelihood.jpg" alt="" class="img-fluid object-fit-cover">
+              <a href="src/images/home/local_livelihood.jpg" class=" text-decoration-none image-hover position-absolute w-100 h-100 z-1 d-grid justify-content-center align-content-center" data-fancybox="experience">
+                <i class="bi bi-fullscreen bg-dark text-light rounded-2 d-grid justify-content-center align-content-center" style="width: 32px; height: 33px;"></i>
+              </a>
             </div>
             <h3 class="bottom-0 p-3 mb-0 fs-5 position-absolute start-0">Local Livelihood</h3>
           </div>
@@ -100,9 +119,9 @@
 
     <section class="text-center">
       <div class="container py-7">
-        <h2 class="display-6 font-cormorant fw-bold">Testimonials</h2>
+        <h2 class="display-6 font-cormorant fw-bold fade-up">Testimonials</h2>
 
-        <div class="pt-3 pb-5 swiper">
+        <div class="pt-3 pb-5 swiper fade-up">
           <div class="swiper-wrapper align-items-center">
             <div class="px-md-8 swiper-slide">
               <div class="mx-auto col-xl-10">
@@ -189,6 +208,9 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+  <script src="node_modules/gsap/dist/gsap.min.js"></script>
+  <script src="node_modules/gsap/dist/ScrollTrigger.min.js"></script>
   <script src="src/js/main.js"></script>
 
   <script>
@@ -197,6 +219,7 @@
       loop: true,
       grabCursor: true,
       autoHeight: true,
+      autoplay: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -207,6 +230,7 @@
         prevEl: '.swiper-button-prev',
       },
     });
+    Fancybox.bind();
   </script>
 </body>
 

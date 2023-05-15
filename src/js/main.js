@@ -9,3 +9,15 @@ $(window).on("load scroll resize", () => {
     $header.removeClass("shrink");
   }
 });
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.set(".fade-up", { y: 20, autoAlpha: 0 });
+ScrollTrigger.batch(".fade-up", {
+  start: "center bottom",
+  onEnter: (batch) =>
+    gsap.to(batch, {
+      y: 0,
+      autoAlpha: 1,
+    }),
+});
