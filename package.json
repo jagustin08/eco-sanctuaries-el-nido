@@ -1,0 +1,28 @@
+{
+  "name": "eco-sanctuaries-el-nido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagustin08/eco-sanctuaries-el-nido.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagustin08/eco-sanctuaries-el-nido/issues"
+  },
+  "homepage": "https://github.com/jagustin08/eco-sanctuaries-el-nido#readme",
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.17",
+    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap-icons": "^1.10.5",
+    "gsap": "^3.11.5",
+    "jquery": "^3.6.4",
+    "swiper": "^9.3.1"
+  }
+}
