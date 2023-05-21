@@ -130,7 +130,7 @@ $utilities: (
 // Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
-$bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
+$bootstrap-icons-font-dir: "../../dist/libraries/bootstrap-icons/font/fonts";
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons";
 
 // Add additional custom code here
