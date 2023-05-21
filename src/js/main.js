@@ -22,5 +22,15 @@ ScrollTrigger.batch(".fade-up", {
     }),
 });
 
-$(".header").load("includes/header.html");
+$(".header").load("includes/header.html", () => {
+  var url = window.location.pathname,
+    urlRegExp = new RegExp(url.replace(/\/$/, "") + "$");
+
+  $("#header .nav-link").each(function () {
+    if (urlRegExp.test(this.href.replace(/\/$/, ""))) {
+      $(this).parent().addClass("active");
+    }
+  });
+});
+
 $(".footer").load("includes/footer.html");
